@@ -1,2 +1,3 @@
 # Overview
 I felt that this was a straightforward UI test. I did run across an issue though with automation that kinda ties in with the web app itself. After you move your checker piece, there is no actual way of knowing that your turn has completed until you try to click on another piece and then it says "Please wait" as the CPU is making their move, hence the part of automating "Make a move" validation was kinda impossible considering that functionality of the sort would be considered a bug in itself which is why I had to write the test with the wait calls to make sure the script gave time for the CPU to move their piece before it (the script) took its' next action. 
+You can run test by using scripts in package.json
